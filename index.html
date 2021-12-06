@@ -9,10 +9,7 @@
 
 <style>
 	
-	.cart{
-		transform: rotateY(180deg);
-	}
-
+	
 	.leftCol7{
 	
 	
@@ -43,10 +40,7 @@
 		color:rgb(151, 29, 12);
 	}
 	.texx{
-	float:left;
-	
-	margin-left: 14%;
-	position:relative;
+		margin-left: 15%;
 		font-size:7vh;
 	
 		color:rgb(151, 29, 12);
@@ -54,8 +48,8 @@
 	.texx1{
 	float:right;
 	
-	margin-right: 14%;
-	position:relative;
+	margin-right: 7%;
+	
 		font-size:7vh;
 	
 		color:rgb(151, 29, 12);
@@ -73,55 +67,25 @@
 		border: 0.7vh ridge rgb(230, 134, 9);
 		border-radius: 1vh 1vh 1vh 1vh;
 		margin-left:38%;
-		margin-top:30%;
+	
 		font-size:5vh;
 		color:rgb(13, 13, 134);
 	 }
-	 .button2{
+	 
+	.back{
+		width: 20% ;
+		margin-left: 5%;
 	
-		margin-left:20%;
+	}
+	.back1{
+		width: 20% ;
+		margin-right: 5%;
+		float:right;
 	
-	 }
-	
+	}
 
-
-.front, .back {
-  position: absolute;
-  width: 13%;
-	margin-top:10%;
-  left: 15%;
-  top: 20;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  transition: 1s;
-  backface-visibility: hidden;
-  background-color: #fff;
- }
- .fr{
-	left: 70%;
-  top: 20;
-  
-
- }
-.front img {
-  max-width: 100%;
-  min-width: 100%;
-  height: auto;
-}
-.back img {
-  max-width: 100%;
-  min-width: 100%;
-  height: auto;
-}
-.back3 {
-  transform: rotateY(180deg);
-}
- .front1 {
-  transform: rotateY(180deg);}
-.back1 {
-  transform: rotateY(360deg);}
 </style>
+</body>
 </HEAD>
 <body class="leftCol7 vsp1"  >
 
@@ -137,28 +101,22 @@
 		
 		<img src="Player2.png" class="player2"/>
 		<div>
-		<span class="tex"id="pl8">0</span>
+		<span class="texx" id="pl8">0</span>
 		<span class="texx1"id="pl7">Комп'ютер</span>
 		</div>
 	
 
 
-		<div class="wrapper">
-			<div class="card">
-			  <div class="front" id='f1'><img src="Red_Back.png" /></div>
-			  <div class="back" id='f2'><img src="Red_Back.png" id="image"/></div>
-			</div>
-		  </div>	
+	
+			  <img  class="back " src="Red_Back.png" id="image"/>
+			
 			
 
 
 
-	<div class="wrapper ">
-			<div class="card ">
-			  <div class="front fr"><img src="Red_Back.png" /></div>
-			  <div class="back fr"><img src="Red_Back.png" id="image1"/></div>
-			</div>
-		  </div>	
+
+		<img class="back1 " src="Red_Back.png" id="image1"/>
+		
 
 
 			
@@ -170,9 +128,8 @@
 				<span class="tex1">Залишилося спроб:</span>
 				<span class="text"id="aa">3</span>
 		</div>
-    
-
-</body><script src="script-8.js">
+    <script src="script-8.js">
  
 </script>
+
 </HTML>
