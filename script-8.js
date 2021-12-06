@@ -16,7 +16,7 @@
         document.getElementById('p77').innerHTML= ':';
         document.getElementById('pl4').innerHTML= '0';   
     }
-    let ran1=Math.floor(Math.random()* (b - 0) + 0);
+    let ran1=Math.floor(Math.random()* (b - 1) + 0);
     var image3=document.getElementById("image1");
     image3.src=imgs[Number(ran1)];
   
@@ -57,7 +57,7 @@
 
 
     document.getElementById('pl3').innerHTML= count2;  
-    let ran2=Math.floor(Math.random()* (b - 0) + 0);
+    let ran2=Math.floor(Math.random()* (b - 1) + 0);
     var image2=document.getElementById("image");
     
     image2.src=imgs[Number(ran2)];
