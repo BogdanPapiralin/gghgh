@@ -34,7 +34,7 @@
         case '9':
             count2=count2+9;
             break;
-        case '10':
+        case '1':
             count2=count2+10;
             break;
         case 'A':
@@ -76,7 +76,7 @@
         case '9':
             count1=count1+9;
             break;
-        case '10':
+        case '1':
             count1=count1+10;
             break;
         case 'A':
