@@ -5,13 +5,13 @@
 
  
  var result = prompt("Введіть ваше ім'я");
- var imgs=new Array('6C.png','7C.png','8C.png','9C.png','10C.png','AC.png','JC.png','KC.png','QC.png','6D.png','7D.png','8D.png','9D.png','10D.png','AD.png','JD.png','KD.png','QD.png','6S.png','7S.png','8S.png','9Spng','10S.png','AS.png','JS.png','KS.png','QS.png','6H.png','7H.png','8H.png','9H.png','10H.png','AH.png','JH.png','KH.png','QH.png'); 
+ var imgs=new Array('6C.png','7C.png','8C.png','9C.png','10C.png','AC.png','JC.png','KC.png','QC.png','6D.png','7D.png','8D.png','9D.png','10D.png','AD.png','JD.png','KD.png','QD.png','6S.png','7S.png','8S.png','9S.png','10S.png','AS.png','JS.png','KS.png','QS.png','6H.png','7H.png','8H.png','9H.png','10H.png','AH.png','JH.png','KH.png','QH.png'); 
  var text=document.getElementById("pl8");
  text.innerHTML=result;
  function timme(){ 
    
     if(i==3)
-    {    imgs=new Array('6C.png','7C.png','8C.png','9C.png','10C.png','AC.png','JC.png','KC.png','QC.png','6D.png','7D.png','8D.png','9D.png','10D.png','AD.png','JD.png','KD.png','QD.png','6S.png','7S.png','8S.png','9Spng','10S.png','AS.png','JS.png','KS.png','QS.png','6H.png','7H.png','8H.png','9H.png','10H.png','AH.png','JH.png','KH.png','QH.png'); 
+    {    imgs=new Array('6C.png','7C.png','8C.png','9C.png','10C.png','AC.png','JC.png','KC.png','QC.png','6D.png','7D.png','8D.png','9D.png','10D.png','AD.png','JD.png','KD.png','QD.png','6S.png','7S.png','8S.png','9S.png','10S.png','AS.png','JS.png','KS.png','QS.png','6H.png','7H.png','8H.png','9H.png','10H.png','AH.png','JH.png','KH.png','QH.png'); 
         document.getElementById('pl3').innerHTML= '0';
         document.getElementById('p77').innerHTML= ':';
         document.getElementById('pl4').innerHTML= '0';   
